@@ -56,7 +56,7 @@
     								fclose($myReadfile);
 
     								if ($admin_pass == $real_pass){
-    									setcookie('user_name', $admin_name, time()+3600*24*10); //设置cookie有效时间10天
+    									setcookie('user_name', $admin_name, time()+3600*24); //设置cookie有效时间1天
             	
                 
                 						$url = 'http://' . $hostName . A_FILENAME_INDEX; //网站首页地址 
@@ -68,7 +68,11 @@
     								}
             					}
             					break;
-   
+
+            				case 'off':
+            					setcookie('user_name',null);
+            					
+   								break;
     					}
 
 

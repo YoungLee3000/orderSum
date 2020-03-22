@@ -10,6 +10,20 @@
 
     define('A_FILENAME_LOGIN', PROJECT_NAME . 'login.php');
 
+    define('A_FILENAME_CHANGE_PASS', PROJECT_NAME . 'change_pass.php' );
+
+    define('A_FILENAME_ADD_USER', PROJECT_NAME . 'add_user.php' );
+
+    define('A_FILENAME_ADD_SITE', PROJECT_NAME . 'add_site.php' );
+
+    define('A_FILENAME_QUERY_ORDERS', PROJECT_NAME . 'query_orders.php' );
+
+    define('A_FILENAME_QUERY_CUSTOMERS', PROJECT_NAME . 'query_customers.php' );
+
+    define('A_FILENAME_EDIT_ORDER', PROJECT_NAME . 'edit_order.php' );
+
+    define('A_FILENAME_EDIT_CUSTOMER', PROJECT_NAME . 'edit_customer.php' );
+
 
 
     //reference file name , used to require
